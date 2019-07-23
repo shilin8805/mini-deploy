@@ -15,7 +15,7 @@ function getHttpPort() {
     let portPath;
     switch (os.type()) {
         case 'Darwin': // macOS
-            portPath = '/Library/Application Support/微信web开发者工具/Default/.ide';
+            portPath = '/Library/Application Support/微信开发者工具/Default/.ide';
             break;
         case 'Windows_NT': // windows
             portPath = '/AppData/Local/微信web开发者工具/User Data/Default/.ide';
